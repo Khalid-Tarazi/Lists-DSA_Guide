@@ -54,7 +54,7 @@ public class QueueArray {
         if (size == 1) {        // If there is only one element in the queue
             out = arrQ[first];  // Retrieve the element from the front of the queue
             first = last = -1;  // Reset the pointers indicating an empty queue
-        } else {                    // FIFO
+        } else {                    // FIFO, if there is more than 1 element
             out = arrQ[first];  // Retrieve the element from the front of the queue
             first++;            // Move the 'first' pointer to the next element
         }
