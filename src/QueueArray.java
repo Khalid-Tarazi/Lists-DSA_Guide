@@ -1,7 +1,7 @@
 public class QueueArray {
     private int first, last;             // because there is index
     private int capacity = 10;         // this will be the default.
-    private int arrQ[] = new int[capacity];
+    private int[] arrQ = new int[capacity];
     private int size;                    // will tell us how much we used from the array.
 
     public QueueArray() {
